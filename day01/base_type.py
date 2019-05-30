@@ -11,7 +11,7 @@ def dda(num1,num2):
 
 if __name__ == '__main__':
     # print('hello world')
-    # c=add('wo','6')
+    c=add('wo','6')
     # print(c)
     # aint()
     d=dda(6,4)

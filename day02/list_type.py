@@ -20,8 +20,8 @@ def list_add():
     alist.append('我是')
     print(alist)
     b_list=['田鱼','小蜜蜂',123]
-    # alist.append(b_list)
-    # print(alist)
+    alist.append(b_list)
+    print(alist)
     # 合并两个数组的元素
     alist.extend(b_list)
     print(alist)
@@ -59,7 +59,7 @@ def list_distinct():
 if __name__ == '__main__':
     # list_sel()
     # list_del()
-    # list_add()
+    list_add()
     # list_update()
     # list_order_by()
     list_distinct()
