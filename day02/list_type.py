@@ -1,1 +1,1 @@
-alist['ss',111]
+alist=['ss',111]
