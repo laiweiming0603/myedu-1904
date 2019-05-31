@@ -57,7 +57,7 @@ def list_distinct():
 
 
 if __name__ == '__main__':
-    # list_sel()
+    list_sel()
     # list_del()
     list_add()
     # list_update()
