@@ -27,6 +27,11 @@ def dict_add():
     d_dict={'age':20,'class':1904}
     g_dict=dict(adict,**d_dict)
     print(g_dict)
+def q():
+    a={'1':2,'3':4}
+    b={'w':8,'t':3}
+    c=dict(a,**b)
+    print(c)
 # 转换字典类型
 def dict_zhuanhuan():
     print(type(adict))
@@ -42,7 +47,8 @@ def dict_zhuanhuan():
 
 if __name__ == '__main__':
     # dict_sel()
-    dict_updete()
+    # dict_updete()
     # dict_del()
     # dict_add()
-    dict_zhuanhuan()
+    # dict_zhuanhuan()
+    q()
